@@ -1,87 +1,148 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>Places | My Summer Vacation</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Places | My Summer Vacation</title>
+    <style>
+        /* Add your CSS styles here */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0; /* Background color for the entire page */
+        }
+
+        header {
+            text-align: center;
+            background-image: url('originals/banner.jpg');
+            background-size: cover;
+            padding: 20px 0;
+        }
+
+        nav {
+            text-align: center;
+            background-color: #ff0000;
+            padding: 10px 0;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: white;
+            margin: 0 10px;
+            font-size: 18px;
+        }
+
+        nav a:hover {
+            background-color: #990000;
+        }
+
+        .content {
+            max-width: 1000px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #ffffff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+
+        h1 {
+            color: #ff0000;
+            text-align: center;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            text-align: left;
+        }
+
+        ul li {
+            margin: 20px 0;
+        }
+
+        ul li a {
+            text-decoration: none;
+            color: #333;
+        }
+
+        ul li a:hover {
+            color: #ff0000;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+        }
+
+        .back-to-top {
+            text-decoration: none;
+            color: #ff0000;
+            font-size: 18px;
+        }
+
+        .back-to-top:hover {
+            text-decoration: underline;
+        }
+    </style>
 </head>
 <body>
-
-
-    <table style="margin-left: auto; margin-right: auto;" width="1000">        
-        <tbody>
-        <tr>
-        <td style="width: 154.133px;" colspan="5">&nbsp;<img src="originals/banner.jpg" title='banner' alt="banner" width="950" height="300" /></td>
-        </tr>
-        <tr>
-            <td style="width: 154.133px;">&nbsp;<a href="index.html"><img src="originals\home.jpg" 
-                                                              
-                onmouseover="this.src='originals/homeroll.jpg';"
-           onmouseout="this.src='originals/home.jpg';"
-                
-                
-                alt="home" width="175" height="65" /></a></td>
-        <td style="width: 154.133px;">&nbsp;<a href="places.html"><img src="originals/places.jpg"
-                                                  onmouseover="this.src='originals/placesroll.jpg';"
-                                                         onmouseout="this.src='originals/places.jpg';"
-                                                 
-                                                 
-                                                 alt="places" width="175" height="65" /></a></td>
-        <td style="width: 154.133px;">&nbsp;<a href="checklist.html"><img src="originals/ck.jpg"
-
-                                                  onmouseover="this.src='originals/ckroll.jpg';"
-                                                         onmouseout="this.src='originals/ck.jpg';"
-                                                                                            
-                                            
-                                                 alt="checklist" width="175" height="65" /></a></td>
-        <td style="width: 154.133px;">&nbsp;<a href="budget.html"><img src="originals\budget.jpg"
-                                                 
-                                                  onmouseover="this.src='originals/budgetroll.jpg';"
-                                                         onmouseout="this.src='originals/budget.jpg';"
-                                                 
-                                                 
-                                                 alt="budget" width="175" height="65" /></a></td>
-        <td style="width: 154.267px;">&nbsp;<a href="references.html"><img src="originals\ref.jpg" 
-                                                 
-                                                  onmouseover="this.src='originals/refroll.jpg';"
-                                                         onmouseout="this.src='originals/ref.jpg';"
-                                                 
-                                                 alt="references" width="175" height="65" /></a></td>
-        </tr>
-        <tr>
-        <td style="width: 154.133px;" colspan="5">&nbsp;</td>
-        </tr>
-        </tbody>
-        </table>
-        <table class="centerTable" style="border-color: #ff0000; width: 1000px; margin-left: auto; margin-right: auto;" border="1" ; cellpadding="10">
-                
-                <tr>
-                  <td>
-                        <h1 style="color: #ff0000; text-align: center;">Places I am going to Visit!</h1>
-                        <form>
-                      <ul list-style: none;
-                      padding: 0;
-                      margin: 0;
-                      text-align: left;">
-                        <li><a href="https://en.wikipedia.org/wiki/Bali" target="_blank" rel="noopener"><label for="item1"><h2>Bali</h2></label></a> 
-                           <p style="font-family: cursive; text-align: left;">I was immersed in the exotic beauty of Bali, with its pristine beaches, lush greenery, and vibrant culture. From exploring ancient temples to surfing the waves, Bali gave me an unforgettable experience.</p>
-                        </br> </br><img src='images/bali.jpg' alt=' Image here' width="300" height="175"></li></br>
-                           <li><a href="https://en.wikipedia.org/wiki/Jakarta" target="_blank" rel="noopener"><label for="item1"><h2>Jakarta</h2></label> </a> 
-                           
-                           <p style="font-family: cursive; text-align: left;">The dynamic and bustling city of Jakarta, where modern skyscrapers stand tall next to ancient temples and traditional markets. From the flavorful street food to the vibrant nightlife, Jakarta was an exciting and unique experience for me.</p>
-                        </br> </br><img src='images/jak.jpg' alt=' Image here'  width="300" height="175">
-                        </li></br>
-                        <li><a href="https://en.wikipedia.org/wiki/Gili_Islands" target="_blank" rel="noopener"><label for="item1"><h2>Gili Islands</h2></label> </a> 
-                        <p style="font-family: cursive; text-align: left;">An escape to the tropical paradise of the Gili Islands, where crystal clear waters, white sandy beaches, and stunning coral reefs await. I Enjoyed the laid-back island vibe, relaxed in a hammock, and indulged in fresh seafood while watching the spectacular sunsets over the ocean.</p>
-                </br> </br><img src='images/gili.jpg' alt=' Image here'  width="300" height="175"></li></br>
-
-
-                        <li><a href="https://en.wikipedia.org/wiki/Surabaya" target="_blank" rel="noopener"><label for="item1"><h2>Surabaya</h2></label></a> 
-                        <p style="font-family: cursive; text-align: left;">I explored the dynamic city of Surabaya, with its rich history, bustling streets, and delicious culinary scene. Visiting the famous House of Sampoerna, stroll along the colorful Chinatown, and savoring the local dish of Sate Klopo at one of the many street food stalls was nothing less than paradise.</p>
-                </br> </br><img src='images/sur.jpg' alt=' Image here'  width="300" height="175"></li></br>
-
-                </ul>
-                    </form>
-                  </td>
-                </tr>
-              </table>
-              <h4 style="color: #dddddd; text-align: center;"><a class="back-to-top" style="text-decoration: none;" href="#top"><button class="btn btn-danger center"><img src="images/btt.jpg" alt="buttomn" title ='Back to Top' width="50" height="50" /></button></a></h4></body>
+    <header>
+        <h1>Places I am going to Visit!</h1>
+    </header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="places.html">Places</a>
+        <a href="checklist.html">Checklist</a>
+        <a href="budget.html">Budget</a>
+        <a href="references.html">References</a>
+    </nav>
+    <div class="content">
+        <ul>
+            <li>
+                <a href="https://en.wikipedia.org/wiki/Bali" target="_blank" rel="noopener">
+                    <h2>Bali</h2>
+                </a>
+                <p>
+                    I was immersed in the exotic beauty of Bali, with its pristine beaches, lush greenery, and vibrant culture. From exploring ancient temples to surfing the waves, Bali gave me an unforgettable experience.
+                </p>
+                <img src='images/bali.jpg' alt='Image here'>
+            </li>
+            <li>
+                <a href="https://en.wikipedia.org/wiki/Jakarta" target="_blank" rel="noopener">
+                    <h2>Jakarta</h2>
+                </a>
+                <p>
+                    The dynamic and bustling city of Jakarta, where modern skyscrapers stand tall next to ancient temples and traditional markets. From the flavorful street food to the vibrant nightlife, Jakarta was an exciting and unique experience for me.
+                </p>
+                <img src='images/jak.jpg' alt='Image here'>
+            </li>
+            <li>
+                <a href="https://en.wikipedia.org/wiki/Gili_Islands" target="_blank" rel="noopener">
+                    <h2>Gili Islands</h2>
+                </a>
+                <p>
+                    An escape to the tropical paradise of the Gili Islands, where crystal clear waters, white sandy beaches, and stunning coral reefs await. I enjoyed the laid-back island vibe, relaxed in a hammock, and indulged in fresh seafood while watching the spectacular sunsets over the ocean.
+                </p>
+                <img src='images/gili.jpg' alt='Image here'>
+            </li>
+            <li>
+                <a href="https://en.wikipedia.org/wiki/Surabaya" target="_blank" rel="noopener">
+                    <h2>Surabaya</h2>
+                </a>
+                <p>
+                    I explored the dynamic city of Surabaya, with its rich history, bustling streets, and delicious culinary scene. Visiting the famous House of Sampoerna, strolling along the colorful Chinatown, and savoring the local dish of Sate Klopo at one of the many street food stalls was nothing less than paradise.
+                </p>
+                <img src='images/sur.jpg' alt='Image here'>
+            </li>
+        </ul>
+    </div>
+    <h4 style="color: #dddddd; text-align: center;">
+        <a class="back-to-top" href="#top">
+            <img src="images/btt.jpg" alt="button" title="Back to Top" width="50" height="50">
+        </a>
+    </h4>
+</body>
 </html>
